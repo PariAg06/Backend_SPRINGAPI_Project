@@ -10,5 +10,6 @@ spring:
     username: demo
     password: demo
 
-  datasource:
-    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: never
